@@ -448,11 +448,6 @@
             [self closeWithCompletionHandler:^{
                 ;
             }];
-
-            if (self.completionHandler)
-            {
-                self.completionHandler(error);
-            }
         }
     }
 }
